@@ -1,0 +1,21 @@
+{
+  "requests": [
+    {
+      "name": "Example GET",
+      "method": "GET",
+      "url": "https://httpbin.org/get?mobile={{phone}}",
+      "headers": {
+        "Accept": "application/json"
+      }
+    },
+    {
+      "name": "Example POST",
+      "method": "POST",
+      "url": "https://httpbin.org/post",
+      "headers": {
+        "Content-Type": "application/json"
+      },
+      "body": "{\"mobile\": \"{{phone}}\"}"
+    }
+  ]
+}
